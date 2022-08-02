@@ -1,0 +1,25 @@
+@import 'base/variables';
+
+* {
+    font-family : 'Azeret Mono', monospace;
+    font-family : 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/menu';
+@import 'blocks/location';
+@import 'blocks/photo';
+@import 'blocks/info';
+@import 'blocks/footer';
+@import 'blocks/media';
+

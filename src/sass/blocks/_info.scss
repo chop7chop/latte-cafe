@@ -1,0 +1,32 @@
+.info {
+    min-height: 400px;
+    padding: 120px 0;
+    background: $main-color;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        :nth-child(1) {
+            width: 50%;
+        }
+        :nth-child(2) {
+            width: 50%;
+        }
+    }
+    &__title {
+        font-family: 'Azeret Mono';
+        font-weight: 400;
+        font-size: 47px;
+        line-height: 62px;
+        letter-spacing: 1px;
+        color: #D27487;
+    }
+    &__descr {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #D27487;
+    }
+}

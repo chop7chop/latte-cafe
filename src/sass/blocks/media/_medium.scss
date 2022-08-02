@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+    .header {
+        position: relative;
+        min-height: 355px;
+        padding: 45px 40px;
+        &__nav {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: space-between;
+            padding: 80px 50px 15px 50px;
+            text-align: center;
+            width: 320px;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            transition: 0.6s all;
+            &_active {
+                left: 0;
+            }
+        }
+        &__menu {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            li {
+                width: 100%;
+                padding: 5px 0;
+                font-weight: bold;
+                font-size: 30px;
+                a {
+                    color: #fff;
+                    transition: 0.3s all;
+                    &:hover {
+                        color: #D27487;
+                    }
+                }
+            }
+        }
+        &__social {
+            margin-top: 75px;
+            gap: 50px;
+            width: 100%;
+            justify-content: center;
+            a {
+                img {
+                    width:180%;
+                }
+            }
+        }
+        &__logo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+    }
+    .button_mob {
+        top: 5px;
+        display: block;
+        width: 35px;
+        height: 3px;
+        background-color: #D27487;
+        border: none;
+        position: relative;
+        z-index: 9;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 35px;
+            height: 3px;
+            background-color: #D27487;
+            top: 10px;
+            left: 0;
+            transition: 0.3s all;
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            width: 35px;
+            height: 3px;
+            background-color: #D27487;
+            top: 5px;
+            left: 0;
+            transition: 0.3s all;
+        }
+        &_active {
+            background: transparent;
+            z-index: 9;
+            &::before {
+                transition: 0.3s all;
+                top: 0;
+                transform: rotate(45deg);
+                background-color: #fff;
+            }
+            &::after {
+                transition: 0.3s all;
+                top: 0;
+                transform: rotate(-45deg);
+                background-color: #fff;
+            }
+        }
+    }
+    .about {
+        padding: 45px 40px;
+        &__title {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+    }
+    .menu {
+        min-height: 1230px;
+        &__descr {
+            font-size: 27px;
+            margin-bottom: 30px;
+        
+        }
+        &__tab {
+            width: 400px;
+        }
+        &__content {
+            text-align: center;
+            margin: 30px auto;
+            img {
+                width: 85%;
+            }
+        }
+    }
+    
+    .work {
+        min-height: 355px;
+        &__title {
+            font-size: 15px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    .photo {
+        padding: 50px 0;
+        &__img-1 {
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .info {
+        min-height: 305px;
+        padding: 45px 40px;
+        &__wrapper {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            :nth-child(1) {
+                width: 100%;
+            }
+            :nth-child(2) {
+                width: 100%;
+            }
+        }
+        &__title {
+            text-align: center;
+            font-size: 29px;
+            line-height: 40px;
+            margin-bottom: 15px
+        }
+        &__descr {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .footer {
+        padding: 40px 0;
+        &__links {
+            a {
+                padding-right: 25px;
+                font-size: 12px;
+            }
+        }
+        &__info {
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,39 @@
+.work {
+    padding: 120px 0;
+    background: #AA9E54;
+    min-height: 475px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 100%;
+        :nth-child(1) {
+            min-width: 33%;
+        }
+        :nth-child(2) {
+            min-width: 33%;
+        }
+        :nth-child(3) {
+            min-width: 33%;
+        }
+    }
+    &__title {
+        font-family: 'Azeret Mono';
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 15px;       
+    }
+    &__subtitle {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        p {
+            margin-top: 35px;
+        }
+    }
+}

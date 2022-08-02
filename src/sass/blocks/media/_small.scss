@@ -1,0 +1,107 @@
+@media (max-width: 575px) {
+    .header {
+        padding: 20px 0;
+        min-height: 230px;
+        &__logo {
+            margin: 0 15px 10px auto;
+            text-align: right;
+        }
+        &__menu {
+            width: 100%;
+            li {
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+    .button_mob {
+        left: 15px;
+    }
+    .about {
+        padding: 30px 10px;
+        &__title {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+    }
+    .menu {
+        min-height: 815px;
+        padding: 30px 10px;
+        &__descr {
+            margin-top: 10px;
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+        &__tab {
+            width: 250px;
+        }
+        &__content {
+            margin: 15px 0 0 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    
+
+    .work {
+        padding: 30px 10px;
+        &__wrapper {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__location {
+            margin-bottom: 30px;
+        }
+        &__hours {
+            margin: 30px auto 0 auto;
+            p {
+                margin-top: 5px;
+            }
+        }
+        &__title {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .photo {
+        padding: 0px 0;
+        &__img-1 {
+            gap: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    .info {
+        padding: 30px 10px;
+        &__title {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    .footer {
+        padding: 30px 10px;
+        &__links {
+           a {
+            font-size: 10px;
+            padding-right: 6px;
+            line-height: 20px;
+           }
+        }
+        &__info {
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+}

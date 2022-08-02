@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 950px;
+    }
+    .header {
+        min-height: 630px;
+    }
+    .menu {
+        padding: 100px 0;
+        &__wrapper {
+            justify-content: center;
+            align-items: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__descr {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        &_tabs {
+            margin: 12px auto;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+
+    }
+    
+    .photo {
+        padding: 100px 0;
+        &__wrapper {
+            justify-content: center;
+        }
+        &__img-1 {
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}

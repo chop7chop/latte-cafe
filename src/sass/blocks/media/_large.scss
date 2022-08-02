@@ -1,0 +1,120 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    .header {
+        min-height: 530px;
+        &__nav {
+            margin-bottom: 30px;
+        }
+        &__menu {
+            gap: 15px;
+            li {
+                font-size: 14px;
+            }
+        }
+        &__logo {
+            text-align: right;
+            img {
+                width: 75%;
+            }
+        }
+        &__social {
+            gap: 15px;
+            img {
+                width: 85%;
+            }
+        }
+    }
+    .about {
+        padding: 80px 0;
+        &__descr {
+            margin: 10px auto;
+            font-size: 26px;
+        }
+    }
+    .menu {
+        padding: 45px 0;
+        &__tab {
+            width: 450px;
+        }
+        &__descr {
+            font-size: 29px;
+            margin-bottom: 30px;
+        
+        }
+        &__content {
+            text-align: center;
+            margin: 30px auto;
+            img {
+                width: 85%;
+            }
+        }
+    }
+    
+    .work {
+        padding: 45px 0;
+        min-height: 390px;
+        &__wrapper {
+            :nth-child(1) {
+                min-width: 50%;
+            }
+            :nth-child(2) {
+                min-width: 50%;
+            }
+            :nth-child(3) {
+                min-width: 50%;
+            }
+        }
+        &__hours {
+            order: 3;
+            display: block;
+            margin: 35px auto 0 auto;
+        }
+        &__days {
+            order: 2;
+        }
+        &__title {
+            font-size: 17px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 30px;
+            p {
+                margin-top: 15px;
+            }
+        }
+    }
+    .photo {
+        padding: 100px 0;
+        &__img-1 {
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    .info {
+        min-height: 355px;
+        padding: 70px 0;
+        &__title {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        padding: 40px 0;
+        &__links {
+            a {
+                padding-right: 30px;
+                font-size: 14px;
+            }
+        }
+        &__info {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
